@@ -49,6 +49,8 @@ One document per registered user.
 | `username` | string | Lowercase username |
 | `password` | string | bcrypt hash |
 | `email` | string | Email address (optional) |
+| `firstName` | string | First name (optional) |
+| `lastName` | string | Last name (optional) |
 | `createdAt` | string | ISO timestamp |
 
 #### Collection: `sessions`
