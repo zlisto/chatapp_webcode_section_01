@@ -1,6 +1,6 @@
 # Chat App
 
-A React chatbot with Gemini AI, user auth, MongoDB persistence, and client-side data analysis. Glassmorphism UI with streaming responses, CSV upload, code execution, and interactive charts.
+A React chatbot with Gemini AI, user auth, MongoDB persistence, and client-side data analysis. **Matrix-style glassmorphism UI** (green & black, frosted glass panels) with streaming responses, CSV upload, code execution, and interactive charts.
 
 ## How It Works
 
@@ -209,6 +209,10 @@ All packages are installed via `npm install`. Key dependencies:
 | `concurrently` | Run frontend and backend with a single `npm start` |
 
 ---
+
+## UI / Design
+
+The app uses **Matrix-style glassmorphism**: a black background with Matrix green (`#00ff41`) accents, frosted glass panels (`backdrop-filter: blur`), and subtle green glows. Panels use semi-transparent green-tinted backgrounds with soft borders for a terminal/hacker aesthetic.
 
 ## Features
 
